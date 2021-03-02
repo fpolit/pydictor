@@ -10,8 +10,8 @@ from __future__ import unicode_literals
 
 import sys
 import argparse
-from lib.fun.fun import lengthchecker, cool
-from lib.data.data import paths, pystrs, pyoptions
+from ..fun.fun import lengthchecker, cool
+from ..data.data import paths, pystrs, pyoptions
 
 
 def parse_args():

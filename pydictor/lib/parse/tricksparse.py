@@ -8,8 +8,8 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 
 from __future__ import unicode_literals
 
-from lib.fun.fun import walk_pure_file
-from lib.data.data import paths, pystrs, pyoptions
+from ..fun.fun import walk_pure_file
+from ..data.data import paths, pystrs, pyoptions
 
 
 def sedb_tricks():

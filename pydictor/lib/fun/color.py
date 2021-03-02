@@ -9,7 +9,7 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 from __future__ import unicode_literals
 
 import os
-from lib.fun.osjudger import *
+from .osjudger import *
 
 
 class Colored(object):

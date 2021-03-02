@@ -9,8 +9,9 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 from __future__ import unicode_literals
 
 import itertools
-from lib.fun.decorator import magic
-from lib.fun.fun import countchecker
+
+from ..lib.fun.decorator import magic
+from ..lib.fun.fun import countchecker
 
 
 def get_chunk_dic(objflag):

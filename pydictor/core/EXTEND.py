@@ -11,11 +11,12 @@ from __future__ import unicode_literals
 import os
 import re
 import itertools
-from core.CONF import confcore
-from lib.fun.decorator import magic
-from lib.data.data import paths, pyoptions
-from lib.fun.leetmode import leet_mode_magic
-from lib.fun.fun import cool, walks_all_files, unique, charanger
+
+from ..core.CONF import confcore
+from ..lib.fun.decorator import magic
+from ..lib.data.data import paths, pyoptions
+from ..lib.fun.leetmode import leet_mode_magic
+from ..lib.fun.fun import cool, walks_all_files, unique, charanger
 try:
     import ConfigParser
 except:

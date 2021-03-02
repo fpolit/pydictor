@@ -11,7 +11,7 @@ from __future__ import unicode_literals
 import os
 
 from ..fun.fun import cool
-from ...core.CONF import build_conf_dic
+from p.core.CONF import build_conf_dic
 from ...core.PATTERN import build_pattern_dic
 from ..data.data import paths, pyoptions
 

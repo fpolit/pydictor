@@ -9,7 +9,7 @@ from __future__ import unicode_literals
 
 import hmac
 import hashlib
-from lib.encode.md5_encode import md5_encode
+from .md5_encode import md5_encode
 
 
 def hmac_encode(item):

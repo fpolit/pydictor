@@ -12,21 +12,21 @@ import os
 import cmd
 import time
 
-from core.EXTEND import extend_enter
-from lib.fun.decorator import magic
-from lib.data.data import paths, pystrs, pyoptions
-from lib.fun.osjudger import is_Windows, is_Linux, is_Mac
-from lib.data.text import help_dict, helpmsg, pydictor_art_text
-from lib.fun.fun import cool, walks_all_files, mybuildtime, finalsavepath, fun_name
-from rules.EB import EB
-from rules.NB import NB
-from rules.SB import SB
-from rules.SDrule import SDrule
-from rules.SNrule import SNrule
-from rules.SSrule import SSrule
-from rules.NNrule import NNrule
-from rules.Mailrule import Mailrule
-from rules.SingleRule import SingleRule
+from ..core.EXTEND import extend_enter
+from ..lib.fun.decorator import magic
+from ..lib.data.data import paths, pystrs, pyoptions
+from ..lib.fun.osjudger import is_Windows, is_Linux, is_Mac
+from ..lib.data.text import help_dict, helpmsg, pydictor_art_text
+from ..lib.fun.fun import cool, walks_all_files, mybuildtime, finalsavepath, fun_name
+from ..rules.EB import EB
+from ..rules.NB import NB
+from ..rules.SB import SB
+from ..rules.SDrule import SDrule
+from ..rules.SNrule import SNrule
+from ..rules.SSrule import SSrule
+from ..rules.NNrule import NNrule
+from ..rules.Mailrule import Mailrule
+from ..rules.SingleRule import SingleRule
 
 
 class SEDB(cmd.Cmd):

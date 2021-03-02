@@ -12,9 +12,10 @@ import operator
 import functools
 import traceback
 from itertools import product
-from lib.data.data import pystrs, pyoptions
-from lib.fun.fun import finalsavepath, finishprinter, cool
-from lib.parse.confparse import elementparser, confmatcher
+
+from ..lib.data.data import pystrs, pyoptions
+from ..lib.fun.fun import finalsavepath, finishprinter, cool
+from ..lib.parse.confparse import elementparser, confmatcher
 
 
 def build_pattern_dic(source=""):

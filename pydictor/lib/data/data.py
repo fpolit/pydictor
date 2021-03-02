@@ -12,8 +12,9 @@ import os
 import sys
 import time
 from collections import OrderedDict
-from lib.data.datatype import AttribDict
-from lib.fun.osjudger import py_ver_egt_3
+
+from .datatype import AttribDict
+from ..fun.osjudger import py_ver_egt_3
 
 
 def init_paths():

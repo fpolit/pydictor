@@ -9,10 +9,10 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 from __future__ import unicode_literals
 
 import itertools
-from lib.fun.decorator import magic
-from lib.data.data import pystrs, pyoptions
-from lib.parse.confparse import elementparser, confmatcher
-from lib.fun.fun import countchecker, lengthchecker, range_compatible, cool
+from ..lib.fun.decorator import magic
+from ..lib.data.data import pystrs, pyoptions
+from ..lib.parse.confparse import elementparser, confmatcher
+from ..lib.fun.fun import countchecker, lengthchecker, range_compatible, cool
 
 
 def build_conf_dic(source=""):

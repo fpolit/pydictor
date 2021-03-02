@@ -9,8 +9,8 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 from __future__ import unicode_literals
 
 from collections import OrderedDict
-from lib.fun.fun import cool
-from lib.data.data import pystrs
+from ..fun.fun import cool
+from .data import pystrs
 
 
 pydictor_art_text = \

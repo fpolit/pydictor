@@ -9,9 +9,10 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 from __future__ import unicode_literals
 
 import traceback
-from lib.data.data import pyoptions
-from lib.fun.filter import filterforfun
-from lib.fun.fun import cool, unique, finalsavepath, finishprinter
+
+from ..data.data import pyoptions
+from .filter import filterforfun
+from .fun import cool, unique, finalsavepath, finishprinter
 
 
 def magic(func):

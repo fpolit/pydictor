@@ -9,9 +9,10 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 from __future__ import unicode_literals
 
 import string
-from lib.fun.osjudger import py_ver_egt_3
-from lib.data.data import paths, pyoptions
-from lib.fun.fun import walk_pure_file, rreplace
+
+from .osjudger import py_ver_egt_3
+from ..data.data import paths, pyoptions
+from .fun import walk_pure_file, rreplace
 
 
 def get_leet_cfg():

@@ -8,10 +8,11 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 
 import re
 import string
-from lib.fun.fun import cool
 from itertools import groupby
 from collections import Counter
-from lib.data.data import pyoptions
+
+from .fun import cool
+from ..data.data import pyoptions
 
 
 def lenght_filter(item, minlen=pyoptions.minlen, maxlen=pyoptions.maxlen, lenght_is_filter=False):

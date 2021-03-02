@@ -10,8 +10,8 @@ from __future__ import unicode_literals
 
 import string
 import itertools
-from lib.data.data import pystrs,  pyoptions
-from lib.fun.fun import finishprinter, countchecker, range_compatible, finalsavepath, fun_name
+from ..lib.data.data import pystrs,  pyoptions
+from ..lib.fun.fun import finishprinter, countchecker, range_compatible, finalsavepath, fun_name
 
 
 # get the dictionary list

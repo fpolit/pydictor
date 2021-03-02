@@ -14,9 +14,10 @@ import string
 import locale
 import traceback
 from functools import reduce
-from lib.fun.color import Colored
-from lib.fun.osjudger import py_ver_egt_3
-from lib.data.data import pystrs,  paths, pyoptions
+
+from .color import Colored
+from .osjudger import py_ver_egt_3
+from ..data.data import pystrs,  paths, pyoptions
 
 cool = Colored()
 

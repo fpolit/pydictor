@@ -11,17 +11,17 @@ from __future__ import unicode_literals
 import os
 import random
 
-from core.BASE import get_base_dic
-from core.CHAR import get_char_dic
-from core.CHUNK import get_chunk_dic
-from core.EXTEND import get_extend_dic
-from core.SEDB import SEDB
-from lib.data.data import paths, pyoptions
-from lib.data.text import pydictor_art_text
-from lib.fun.fun import cool
-from lib.parse.argsparse import plug_parser, conf_parser, pattern_parser, tool_parser
-from lib.parse.command import parse_args
-from lib.parse.tricksparse import sedb_tricks
+from .core.BASE import get_base_dic
+from .core.CHAR import get_char_dic
+from .core.CHUNK import get_chunk_dic
+from .core.EXTEND import get_extend_dic
+from .core.SEDB import SEDB
+from .lib.data.data import paths, pyoptions
+from .lib.data.text import pydictor_art_text
+from .lib.fun.fun import cool
+from .lib.parse.argsparse import plug_parser, conf_parser, pattern_parser, tool_parser
+from .lib.parse.command import parse_args
+from .lib.parse.tricksparse import sedb_tricks
 
 
 def init():
@@ -105,7 +105,7 @@ def init():
         exit(pyoptions.CRLF + cool.red("[-] Cannot create result file: %s " % paths.results_path))
 
 
-if __name__ == '__main__':
+def main():
     print("{}".format(cool.green(pydictor_art_text)))
     init()
     if pyoptions.args_base:

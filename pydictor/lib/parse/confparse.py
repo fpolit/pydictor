@@ -10,8 +10,8 @@ from __future__ import unicode_literals
 
 import os
 import re
-from lib.fun.fun import cool, charanger
-from lib.data.data import pystrs, pyoptions
+from ..fun.fun import cool, charanger
+from ..data.data import pystrs, pyoptions
 
 
 def confmatcher(resource):

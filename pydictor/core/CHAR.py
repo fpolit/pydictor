@@ -9,8 +9,8 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 from __future__ import unicode_literals
 
 import itertools
-from lib.data.data import pyoptions
-from lib.fun.fun import finishprinter, countchecker, range_compatible, finalsavepath, fun_name
+from ..lib.data.data import pyoptions
+from ..lib.fun.fun import finishprinter, countchecker, range_compatible, finalsavepath, fun_name
 
 
 def get_char_dic(objflag):
