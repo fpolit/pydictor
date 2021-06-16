@@ -46,11 +46,9 @@ A: 1.it always can help you
 ```
 
 ## Start:
-```
-git clone --depth=1 --branch=master https://www.github.com/landgrey/pydictor.git
-cd pydictor/
-chmod +x pydictor.py
-python pydictor.py
+```bash
+$ python3 -m pip install pydictor
+$ pydictor -h
 ```
 
 ## Overview：
