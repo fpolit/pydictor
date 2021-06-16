@@ -19,8 +19,8 @@ from ..fun.osjudger import py_ver_egt_3
 
 def init_paths():
     try:
-        root_path = os.path.join(os.path.dirname(os.path.abspath(sys.argv[0]))).encode('utf-8').decode() \
-            if py_ver_egt_3 else os.path.dirname(os.path.abspath(sys.argv[0])).decode('utf-8')
+        root_path = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0]))).encode('utf-8').decode() \
+            if py_ver_egt_3 else os.path.dirname(os.path.realpath(sys.argv[0])).decode('utf-8')
     except:
         root_path = 'fake path'
         exit("\n[-] Please ensure pydictor directory path name is english characters\n")
@@ -57,7 +57,7 @@ def init_pystrs():
     # start time
     pystrs.startime = time.time()
 
-    pystrs.version = '2.1.5.2#dev'
+    pystrs.version = '2.1.5.4#dev'
 
     # build configuration file element description
     pystrs.conf_head = "head"
@@ -145,6 +145,7 @@ def init_pyoptions():
     pyoptions.encode = "none"
     pyoptions.minlen = 0
     pyoptions.maxlen = 4
+    pyoptions.buffer_size = 256
 
     pyoptions.default_occur = "<=99"
     pyoptions.occur_is_filter = False
